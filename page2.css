@@ -19,8 +19,6 @@ nav {
     right: 0;
     border: 5px solid blue;
     z-index: 1;
-    
-
 }
 
 nav a {
@@ -33,6 +31,8 @@ nav a {
     text-decoration: none;
     font-family: Georgia;
     font-weight: bold;
+    transition-property: background-color;
+    transition-duration: 0.25s;
 }
 nav a:hover {
     background-color: pink;
@@ -154,6 +154,8 @@ table {
     display: inline-block;
     padding: 2px 5px 5px;
     width: auto;
+    transition-property: background-color;
+    transition-duration: 0.25s;
 }
 
 .p-button:hover {

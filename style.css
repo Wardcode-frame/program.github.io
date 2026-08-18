@@ -34,6 +34,8 @@ nav a {
     font-family: Georgia;
     font-weight: bold;
     display: inline-block;
+    transition-property: background-color;
+    transition-duration: 0.25s;
 }
 nav a:hover {
     background-color: pink;
@@ -133,6 +135,8 @@ h2 {
     display: inline-block;
     padding: 2px 5px 5px;
     width: auto;
+    transition-property: background-color;
+    transition-duration: 0.25s;
 }
 
 .p-button:hover {
